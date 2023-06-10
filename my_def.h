@@ -1,4 +1,26 @@
 
+/*
+
+   || THESE ARE THE PROTOTYPES OF ALL THE FUNCTIONS  ||
+char * strcat1(char * first_string, char * second_string );
+char * strchr1(char * str1,char a);
+int strcmp1(char * first, char * second);
+int strcmpi1(char * first,char * second);
+char * strcpy1(char * dest, char * src);
+char * strlwr1(char * str1);
+char * strncat1(char * first, char * second,int iNo);
+int strncmp1( char * first,  char * second,int iNo);
+int strncmpi1(char * first,char * second,int iNo);
+char * strncpy1(char * dest, char * src,int iNo);
+char * strnset1(char * str,char a,int iNo);
+char * strrchr1( char * str1,char a);
+char * strrev1(char * str1);
+char * strset1(char * str,char a);
+char * strupr1(char * str1);
+int strlen1(char * str);
+char * strstr1(char * string,char * substring);
+*/
+
 char * strcat1(char * first_string,char * second_string )
 {
 	char * sPtr=first_string;
