@@ -186,5 +186,14 @@ int i_check(void)
 			printf("!! PLAYER 2 WON !!\n");
 		return 1;
 	}
+	
+	if(arr[0][1]==arr[1][1]   &&  arr[0][1]==arr[2][1])
+	{
+		if(arr[0][1]==88)
+			printf("!! PLAYER 1 WON !!\n");
+		else
+			printf("!! PLAYER 2 WON !!\n");
+		return 1;
+	}
 	return -1;
 }
